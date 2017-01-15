@@ -245,8 +245,21 @@ function zoomer(ycol) {
     </li>
 	<?php } ?>
     <li title="Applications"><a href="http://www.dmic-corp.fr/front/apps.php"><img src="http://www.dmic-corp.fr/images/application.jpg" border="0" alt="Applications" />Applications</a></li>
-    <li title="Base de connaissance"><a href="http://www.dmic-corp.fr/front/base_connaissances.php"><img src="http://www.dmic-corp.fr/images/knowbase.jpg" border="0" alt="Base de connaissance" />Base de connaissance</a></li>
-    <li title="Cours"><a href="javascript:void(0);"><img src="http://www.dmic-corp.fr/images/knowbase.jpg" border="0" alt="Cours" />Cours</a></li>
+    <li title="Artciels"><a href="javascript:void(0);" class="expandable"><img src="http://www.dmic-corp.fr/images/geek.jpg" border="0" alt="Articles" />Articles<span class="sub_down"></span></a>
+    	<ul class="sub">
+        	<li title="Cinéma & TV"><a href="https://articles.dmic-corp.fr/category/cinema_tv/" target="_blank"><img src="http://www.dmic-corp.fr/images/cinema.jpg" border="0" alt="Cinéma & TV" />Cinema & TV</a></li>
+            <li title="Littératures"><a href="https://articles.dmic-corp.fr/category/litteratures/" target="_blank"><img src="http://www.dmic-corp.fr/images/livre_or.jpg" border="0" alt="Littérature" />Littérature</a></li>
+            <li title="Jeux Vidéo"><a href="https://articles.dmic-corp.fr/category/jeux_video/" target="_blank"><img src="http://www.dmic-corp.fr/images/videogame.jpg" border="0" alt="Jeux Vidéo" />Jeux vidéo</a></li>
+            <li title="Sciences & High Tech"><a href="https://articles.dmic-corp.fr/category/nouvelles_technologies/" target="_blank"><img src="http://www.dmic-corp.fr/images/sciences.jpg" border="0" alt="Sciences & High Tech" />Sciences & High Tech</a></li>
+        </ul>
+    </li>
+    <li title="Base de connaissance"><a href="javascript:void(0);" class="expandable"><img src="http://www.dmic-corp.fr/images/knowbase.jpg" border="0" alt="Base de connaissance" />Base de connaissance<span class="sub_down"></span></a>
+    	<ul class="sub">
+        	<li title="Procédure"><a href="https://articles.dmic-corp.fr/category/informatiques/base_de_connaissances/procedures/" target="_blank"><img src="http://www.dmic-corp.fr/images/knowbase.jpg" border="0" alt="Procédures" />Procédures</a></li>
+            <li title="Résolution d'incidents"><a href="https://articles.dmic-corp.fr/category/informatiques/base_de_connaissances/resolution_d_incidents/" target="_blank"><img src="http://www.dmic-corp.fr/images/knowbase.jpg" border="0" alt="Résolution d'incidents" />Résolution d'incidents</a></li>
+        </ul>
+    </li>
+    <li title="Cours"><a href="https://articles.dmic-corp.fr/category/informatiques/cours/" target="_blank"><img src="http://www.dmic-corp.fr/images/knowbase.jpg" border="0" alt="Cours" />Cours</a></li>
     <li title="Communications"><a href="javascript:void(0);" class="expandable"><img src="http://www.dmic-corp.fr/images/tools.jpg" border="0" alt="Outils" />Communications<span class="sub_down"></span></a>
       <ul class="sub">
         <li title="FAQ"><a href="http://faq.dmic-corp.fr/" target="_blank"><img src="http://www.dmic-corp.fr/images/faq.png" border="0" alt="FAQ" />FAQ</a></li>
@@ -254,7 +267,6 @@ function zoomer(ycol) {
         <li title="Livre d'or"><a href="http://www.dmic-corp.fr/front/guestbook.php"><img src="http://www.dmic-corp.fr/images/livre_or.jpg" border="0" alt="Livre d'or" />Livre d'or</a></li>
       </ul>
     </li>
-    <li title="Geek Zone"><a href="http://www.dmic-corp.fr/front/geek-zone/geek_zone_actus.php"><img src="http://www.dmic-corp.fr/images/geek.jpg" border="0" alt="Geek Zone" />Geek Zone Actus</a></li>
     <?php if ($_SESSION['MM_UserGroup']=='Administrateurs' or $_SESSION['MM_UserGroup']=='Clients') { ?>
     <li title="Prestations"><a href="javascript:void(0);" class="expandable"><img src="http://www.dmic-corp.fr/images/computer.jpg" border="0" alt="Prestations" />Prestations<span class="sub_down"></span></a>
       <ul class="sub">
