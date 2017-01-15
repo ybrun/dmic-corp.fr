@@ -37,7 +37,7 @@ if (!isset($_SESSION)) {
 <link rel="stylesheet" type="text/css" href="../../../Styles/dmxNavigationMenu/dark_black/dark_black.css" />
 <link rel="stylesheet" type="text/css" href="../Styles/dmxNavigationMenu/dark_black/dark_black.css" />
 <link rel="stylesheet" type="text/css" href="../../Styles/dmxNavigationMenu/dark_black/dark_black.css" />
-<script type="text/javascript" src="../../ScriptLibrary/jquery-latest.pack.js"></script>
+<script type="text/javascript" src="../../../ScriptLibrary/jquery-latest.pack.js"></script>
 <script type="text/javascript" src="../../../ScriptLibrary/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="../ScriptLibrary/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="../../ScriptLibrary/jquery.easing.1.3.js"></script>
@@ -231,6 +231,7 @@ function zoomer(ycol) {
     <?php if ($_SESSION['MM_UserGroup'] == 'Administrateurs') { ?>
     <li title="Administration"><a href="javascript:void(0);" class="expandable"><img src="http://www.dmic-corp.fr/images/administration.png" border="0" alt="Administration" />Administration<span class="sub_down"></span></a>
       <ul class="sub">
+      	<li title="GitHub"><a href="https://github.com/ybrun/" target="_blank"><img src="http://www.dmic-corp.fr/images/github.ico" border="0" alt="GitHub" />GitHub</a></li>
         <li title="GLPI"><a href="http://vps107766.ovh.net/glpi/index.php" target="_blank"><img src="http://www.dmic-corp.fr/images/favicon.ico" border="0" alt="GLPI" />GLPI</a></li>
         <li title="Intitulés"><a href="http://www.dmic-corp.fr/front/admin/config_intitules.php"><img src="http://www.dmic-corp.fr/images/intitules.jpg" border="0" alt="Intitulés" />Intitulés</a></li>
         <li title="OCS Inventory NG"><a href="http://vps107766.ovh.net/ocsreports/index.php" target="_blank"><img src="http://www.dmic-corp.fr/images/logo_OCS.png" border="0" alt="OCS Inventory NG" />OCS Inventory NG</a></li>
