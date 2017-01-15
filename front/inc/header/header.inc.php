@@ -31,24 +31,22 @@ if (!isset($_SESSION)) {
   session_start();
 }
 ?>
-<link rel="stylesheet" type="text/css" href="Styles/dmxNavigationMenu.css" />
+<link rel="stylesheet" type="text/css" href="../../../Styles/dmxNavigationMenu.css" />
 <link rel="stylesheet" type="text/css" href="../Styles/dmxNavigationMenu.css" />
 <link rel="stylesheet" type="text/css" href="../../Styles/dmxNavigationMenu.css" />
-<link rel="stylesheet" type="text/css" href="Styles/dmxNavigationMenu/dark_black/dark_black.css" />
+<link rel="stylesheet" type="text/css" href="../../../Styles/dmxNavigationMenu/dark_black/dark_black.css" />
 <link rel="stylesheet" type="text/css" href="../Styles/dmxNavigationMenu/dark_black/dark_black.css" />
 <link rel="stylesheet" type="text/css" href="../../Styles/dmxNavigationMenu/dark_black/dark_black.css" />
-<script type="text/javascript" src="ScriptLibrary/jquery-latest.pack.js"></script>
-<script type="text/javascript" src="../ScriptLibrary/jquery-latest.pack.js"></script>
 <script type="text/javascript" src="../../ScriptLibrary/jquery-latest.pack.js"></script>
-<script type="text/javascript" src="ScriptLibrary/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="../../../ScriptLibrary/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="../ScriptLibrary/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="../../ScriptLibrary/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="ScriptLibrary/dmxNavigationMenu.js"></script>
+<script type="text/javascript" src="../../../ScriptLibrary/dmxNavigationMenu.js"></script>
 <script type="text/javascript" src="../ScriptLibrary/dmxNavigationMenu.js"></script>
 <script type="text/javascript" src="../../ScriptLibrary/dmxNavigationMenu.js"></script>
-<!--[if lt IE 7]><script type="text/javascript" src="/Styles/IE7.js"></script><![endif]-->
-<!--[if lt IE 7]><script type="text/javascript" src="../Styles/IE7.js"></script><![endif]-->
-<!--[if lt IE 7]><script type="text/javascript" src="../../Styles/IE7.js"></script><![endif]-->
+<!--[if lt IE 7]><script type="text/javascript" src="../../../Styles/IE7.js"></script><![endif]-->
+<!--[if lt IE 7]><script type="text/javascript" src="../../../Styles/IE7.js"></script><![endif]-->
+<!--[if lt IE 7]><script type="text/javascript" src="../../../Styles/IE7.js"></script><![endif]-->
 <style type="text/css">
 .matrix { font-family:Lucida Console, Courier, Monotype; font-size:10pt; text-align:center; width:10px; padding:0px; margin:0px;}
 </style>
@@ -242,6 +240,7 @@ function zoomer(ycol) {
         <li title="Serveur FTP"><a href="https://ssl7.ovh.net/net2ftp/?username=dmiccorpgl" target="_blank"><img src="http://www.dmic-corp.fr/images/ftp.jpg" border="0" alt="Serveur FTP" />Serveur FTP</a></li>
         <li title="Utilisateurs"><a href="http://www.dmic-corp.fr/front/admin/liste_users.php"><img src="http://www.dmic-corp.fr/images/users.jpg" border="0" alt="Utilisateurs" />Utilisateurs</a></li>
         <li title="Webmail"><a href="https://ssl0.ovh.net/fr" target="_blank"><img src="http://www.dmic-corp.fr/images/webmail.jpg" border="0" alt="Webmail" />Webmail</a></li>
+        <li title="WordPress"><a href="https://articles.dmic-corp.fr/admin" target="_blank"><img src="http://www.dmic-corp.fr/images/wordpress.png" border="0" alt="WordPress" />WordPress</a></li>
       </ul>
     </li>
 	<?php } ?>
